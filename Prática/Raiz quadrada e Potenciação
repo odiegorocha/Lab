@@ -14,7 +14,10 @@ int main (void) {
                 if (resultado == numero) {
                     printf ("A raiz quadrada de %d é %d\n", numero, contador);
                     break;
-                }
+                } 
+            }
+            if (resultado != numero) {
+                printf ("Não existe raiz exata para %d\n", numero);
             }
             break;
         case 2:
